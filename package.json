@@ -1,0 +1,31 @@
+{
+  "name": "ether.camp.demo.sandbox",
+  "description": "<ether.camp> demo plugin for sandbox-like app.",
+  "version": "0.0.1",
+  "author": "Alex Sinyagin",
+  "contributors": [
+    {
+      "name": "Alex Sinyagin",
+      "email": "alex@ethergit.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ether-camp/ether.camp.demo.sandbox"
+  },
+  "plugins": {
+    "src/sandbox": {}
+  },
+  "categories": [
+    "miscellaneous"
+  ],
+  "licenses": [],
+  "dependencies": {
+    "web3": "^0.15.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
